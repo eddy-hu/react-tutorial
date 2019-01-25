@@ -4,6 +4,11 @@ import React, { Component } from 'react';
 
 class Counter extends Component {
 
+    componentDidUpdate(prevProps, prevSatet){
+        //for Ajax update props
+        console.log('prevProps', prevProps)
+        console.log('prevSatet', prevSatet)
+    }
 
     render() { 
         return (
